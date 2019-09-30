@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4949684B-607A-4832-9C10-3410AAE4256B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>PatternPlotter4.My.MyApplication</StartupObject>
+    <RootNamespace>PatternPlotter4</RootNamespace>
+    <AssemblyName>PP4</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <ApplicationIcon>Resources\Folder Games Soccer.ico</ApplicationIcon>
+    <ManifestCertificateThumbprint>C2828DB2FEB459C02111AF30A299809DFD8C4AA9</ManifestCertificateThumbprint>
+    <ManifestKeyFile>PP4_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <TargetZone>LocalIntranet</TargetZone>
+    <SignManifests>true</SignManifests>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>4.1.1.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>PP4.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>PP4.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.VisualBasic.Compatibility" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAnalysis.Designer.vb">
+      <DependentUpon>frmAnalysis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnalysis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCreateCollection.Designer.vb">
+      <DependentUpon>frmCreateCollection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCreateCollection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEventList.Designer.vb">
+      <DependentUpon>frmEventList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEventList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOpenGames.Designer.vb">
+      <DependentUpon>frmOpenGames.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOpenGames.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOptions.Designer.vb">
+      <DependentUpon>frmOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clsDV.cls">
+    </Compile>
+    <Compile Include="frmVideo.Designer.vb">
+      <DependentUpon>frmVideo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVideo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVideoPlayList.Designer.vb">
+      <DependentUpon>frmVideoPlayList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVideoPlayList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modLoadSaveGame.vb" />
+    <Compile Include="modPPMain.vb" />
+    <Compile Include="modSearchEngine.vb" />
+    <Compile Include="modVideoClass.cls" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="frmSplash.Designer.vb">
+      <DependentUpon>frmSplash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVideoCapture.Designer.vb">
+      <DependentUpon>frmVideoCapture.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVideoCapture.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmAnalysis.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAnalysis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCreateCollection.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCreateCollection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEventList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEventList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOpenGames.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOpenGames.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOptions.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVideo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmVideo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVideoPlayList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmVideoPlayList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplash.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSplash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVideoCapture.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmVideoCapture.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BaseApplicationManifest Include="My Project\app.manifest" />
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="PP4_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxMCI">
+      <Guid>{C1A8AF28-1257-101B-8FB0-0020AF039CA3}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="DexterLib">
+      <Guid>{78530B68-61F9-11D2-8CAD-00A024580902}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="FSFWRAPLib">
+      <Guid>{BA7A55F1-1834-4164-BB03-D5C8254BF73E}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="MCI">
+      <Guid>{C1A8AF28-1257-101B-8FB0-0020AF039CA3}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="MSDATASRC">
+      <Guid>{7C0FFAB0-CD84-11D0-949A-00A0C91110ED}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="QuartzTypeLib">
+      <Guid>{56A868B0-0AD4-11CE-B03A-0020AF0BA770}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\AIS Logo.gif" />
+    <None Include="Resources\AIS Logo1.gif" />
+    <Content Include="Resources\ASC Logo.gif" />
+    <None Include="Resources\ASC Logo1.gif" />
+    <Content Include="Resources\Folder Games Soccer.ico" />
+    <Content Include="GamePath.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Help004.png" />
+    <None Include="Resources\My Videos3004.png" />
+    <None Include="Resources\Windows Media Player004.png" />
+    <None Include="Resources\VIDEO004.png" />
+    <None Include="Resources\Silver System Icon 33003.png" />
+    <None Include="Resources\Orange System Icon 51003.png" />
+    <None Include="Resources\Netclear004.png" />
+    <None Include="Resources\Netclear001.png" />
+    <None Include="Resources\Media Player2004.png" />
+    <None Include="Resources\FloppyClear004.png" />
+    <None Include="Resources\Application iMovie004.png" />
+    <None Include="Resources\Folder Movies.png" />
+    <None Include="Resources\Folder Utilities.png" />
+    <None Include="Resources\Toolbar Movies1.png" />
+    <None Include="Resources\Toolbar Get info.png" />
+    <None Include="Resources\Toolbar Delete.png" />
+    <None Include="Resources\PRINTERS.png" />
+    <None Include="Resources\Toolbar Movies.png" />
+    <None Include="Resources\Toolbar Customize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

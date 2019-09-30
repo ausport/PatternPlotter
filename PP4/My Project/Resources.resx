@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Folder_Movies" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Folder Movies.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Folder_Pens" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Folder Applications (5).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Small_Pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Symbol Player Pause 32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Small_Rewind" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Symbol Player FastRew 32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pause_Export" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pause_Layer 1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AIS_Small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AIS Logo1.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Video_Folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\My Videos3004.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Help004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Help004.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Small_Play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Symbol Player Play 32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="right_48x48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\right_48x48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SonyRemote" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SonyRemote.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Twin_Screens" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LaST (Cobalt) XP V1-1 Icon 03.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PRINTERS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRINTERS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toolbar Get info.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Small_NextFrame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Symbol Player Slow 32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Capture_Large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Application iMovie007.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FloppyClear004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FloppyClear004.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Big_Rewind" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Symbol Player FastRew 64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Play_Export" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Play_Layer 1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Small_PrevFrame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Symbol Player Slow Back 32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ASC_Small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ASC Logo1.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Capture_Largest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Application iMovie008.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Big_ToEnd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Symbol Player Next 64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Silver System Icon 33003.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Big_ToStart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Symbol Player Previous 64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireWire_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireWireLogo 48x48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SlideShow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SlideShow.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toolbar Delete.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Capture_Small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Application iMovie004.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Play_Media" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Media Player2004.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SlideShow1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SlideShow1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Folder_Utilities" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Folder Utilities.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Options" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toolbar Customize.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Media1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toolbar Movies.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Capture_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Application iMovie006.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stop_Export" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stop_Layer 1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Folder_Generic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Folder Generic.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FireWireLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FireWireLogo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="left_48x48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\left_48x48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Timing_Small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FauxS-XP (Cobalt) Recent File.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Big_Pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Symbol Player Pause 64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Small_FF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Symbol Player FastF 32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Media2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toolbar Movies1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Big_FF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Symbol Player FastF 64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VIDEO004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VIDEO004.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Small_ToStart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Symbol Player Previous 32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Big_NextFrame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Symbol Player Slow 64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Big_PrevFrame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Symbol Player Slow Back 64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Big_Play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Symbol Player Play 64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPLICATIONS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPLICATIONS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Add_Folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toolbar New folder.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Small_ToEnd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Symbol Player Next 32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Export_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Export 24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChronoSync" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChronoSync.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddPoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddPoint.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Camera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Photo 140.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExcelStat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExcelStat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Undo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Undo Red_Layer 1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Add_Folder_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ToolbarTags64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Folder_Excel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Folder Excel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Folder_Draw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Folder Draw.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chrono_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chrono_Red.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="XP_Forward" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XP_Forward.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="XP_Pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XP_Pause.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="XP_Play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XP_Play.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="XP_Rewind" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XP_Rewind.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="XP_Stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XP_Stop.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Exit_010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Exit_010.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Folder_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Folder 128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Print_144" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Print 144.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PDF32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PDF32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrinterFolder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrinterFolder.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Print_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Print_Preview.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Print_Preview32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Print_Preview32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Print32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Print32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Refresh.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Feed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Feed.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Filetype_URL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Filetype URL.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Folder__Sites" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Folder -Sites.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sites_Folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sites Folder.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iFeed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iFeed.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blank_Point" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blank Point.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iFeed2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iFeed2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

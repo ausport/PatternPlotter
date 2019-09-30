@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="PP4.exe" version="4.1.1.1" publicKeyToken="a4cf468df059bfdf" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Folder Games Soccer.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PP4" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PP4.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="MSDATASRC" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="stdole" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.MCI.dll" size="53248">
+      <assemblyIdentity name="AxInterop.MCI" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>WDG7Qswcau0ULPfPGT7pR3DiODQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.DexterLib.dll" size="65536">
+      <assemblyIdentity name="Interop.DexterLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>v/hCAcu/Dr6KhY/JacqGIVP0xhk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.FSFWRAPLib.dll" size="16896">
+      <assemblyIdentity name="Interop.FSFWRAPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>tWNnAIDIQ/5RF4R/+RlTHMGgeg8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.MCI.dll" size="73728">
+      <assemblyIdentity name="Interop.MCI" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>DViFoO2W8PXLngOeRSciBcO32Fg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.QuartzTypeLib.dll" size="18944">
+      <assemblyIdentity name="Interop.QuartzTypeLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>8K+d1mZlX5durTSpQe18leGlwCE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PP4.exe" size="692224">
+      <assemblyIdentity name="PP4" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>PUdfN1EEp58QEkQEjrm/eiLUK8I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Folder Games Soccer.ico" size="161862">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wnioNcpyfkUswO6QlajJPG3NZlk=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=VIS\stuart.morgan" issuerKeyHash="f983b961722cc29ec2c855a4dfda76dcac3f6e07" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Aa1akSTYPkiDlbQjAjuZ1Iui0Rg=</DigestValue></Reference></SignedInfo><SignatureValue>ab1p8jtGefEjB8ySbDFBu/bJwXVviX1jlbMGSQCUF+a6PpYzGtocrV6UYpfV74TXeqp5tlQmepWr+txrt2+9qZhqA1LwSMPVDMpzjKAjt+irCat6+lNnCQ1qUtAWv3ZOchFW84XSpx0+uwAQnq7PCVM92SyVj62BXxjzhCsGoV4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>7xV8vtOr0/IWLX0tQT7wSKRBep9t2xi4J7OcTjSCKrQj+kWbhrHqgr/WOyQjnMaYareeSFafZIeCkIbgEui/O/Tb/VNPx2sOt/Lm3evle0GV96DaRp7In0kAStTU1JjO8vz+bpr4+m5Xz5z/OB5Fw7scSmn/i6ISyX0tmFXM5g8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="18d1a28bd4993b0223b49583483ed824915aad01" Description="" Url=""><as:assemblyIdentity name="PP4.exe" version="4.1.1.1" publicKeyToken="a4cf468df059bfdf" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=VIS\stuart.morgan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>v6HLYXAMQwF1Ikov4loMum1Exh8=</DigestValue></Reference></SignedInfo><SignatureValue>SmWw/lCzhcc74hU/NKjQSgyJFttseN8TXVHxDxjDWb/hgK8QQ6ZvNi4ZF3Q/rn+HIQC4/Cx8AOlAZ/cyh/WlB94PSeQ4fxi/eEGVHMFWzb10WVx9BbAZNF22vNuhMD1ecvWgpeuuOOfAZtn4hK0AreHfZN6CqpZqsURFuItyOHg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>7xV8vtOr0/IWLX0tQT7wSKRBep9t2xi4J7OcTjSCKrQj+kWbhrHqgr/WOyQjnMaYareeSFafZIeCkIbgEui/O/Tb/VNPx2sOt/Lm3evle0GV96DaRp7In0kAStTU1JjO8vz+bpr4+m5Xz5z/OB5Fw7scSmn/i6ISyX0tmFXM5g8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAUKgAwIBAgIQAUyZ8EiTsqtMNSU7es7ydzAJBgUrDgMCHQUAMC0xKzApBgNVBAMeIgBWAEkAUwBcAHMAdAB1AGEAcgB0AC4AbQBvAHIAZwBhAG4wHhcNMDYxMTE2MDQyODI5WhcNMDcxMTE2MTAyODI5WjAtMSswKQYDVQQDHiIAVgBJAFMAXABzAHQAdQBhAHIAdAAuAG0AbwByAGcAYQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDvFXy+06vT8hYtfS1BPvBIpEF6n23bGLgns5xONIIqtCP6RZuGseqCv9Y7JCOcxphqt55IVp9kh4KQhuAS6L879Nv9U0/Haw638ubd6+V7QZX3oNpGnsifSQBK1NTUmM7y/P5umvj6blfPnP84HkXDuxxKaf+LohLJfS2YVczmDwIDAQABMAkGBSsOAwIdBQADgYEATUFxUgadohNHgAMKwAWQFUftpCxlz1JFCx2Q2OQnxMQFTbuJk4ALyPFdGrBiScY+oPrMeuXjU0iCpmogHhTU2UH44iCAMyRcu+dsT2iExWRWj8UGvKKdT2E9KXJONZGAturThrYmA5iOVcszBwFrO8I4mLvjRrrrsqGCh194rLk=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

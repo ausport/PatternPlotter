@@ -1,0 +1,671 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="15.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4949684B-607A-4832-9C10-3410AAE4256B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>PatternPlotter4.My.MyApplication</StartupObject>
+    <RootNamespace>PatternPlotter4</RootNamespace>
+    <AssemblyName>Pattern_Plotter</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <ApplicationIcon>Folder Games Soccer.ico</ApplicationIcon>
+    <ManifestCertificateThumbprint>291218E2EDF8890183028EF41035F1205BBACE17</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Pattern Plotter 4_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <TargetZone>LocalIntranet</TargetZone>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\Users\Stuart Morgan\Desktop\Pattern Plotter 4.6.1\Installer\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>http:\\www.ausport.gov.au</SupportUrl>
+    <TargetCulture>en</TargetCulture>
+    <ProductName>Pattern Plotter</ProductName>
+    <PublisherName>AIS Performance Analysis</PublisherName>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>4.1.2.4</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Pattern_Plotter.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>obj\Release\</OutputPath>
+    <DocumentationFile>Pattern_Plotter.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.MSChart20Lib">
+      <HintPath>obj\Debug\AxInterop.MSChart20Lib.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.DshowForVBLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>obj\Debug\Interop.DshowForVBLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Excel, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.FSFWRAPLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>obj\Debug\Interop.FSFWRAPLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.MCI, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>obj\Debug\Interop.MCI.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.MSChart20Lib">
+      <HintPath>obj\Debug\Interop.MSChart20Lib.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.VISWirelessCam, Version=25.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>obj\Debug\Interop.VISWirelessCam.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Access, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\InterOp\Microsoft.Office.Interop.Access.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="msdatasrc1">
+      <HintPath>..\..\InterOp\msdatasrc.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.VisualBasic.Compatibility" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="clsDV2Device.cls" />
+    <Compile Include="clsVideoTrimmer.cls" />
+    <Compile Include="frmDMClusters.Designer.vb">
+      <DependentUpon>frmDMClusters.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDMClusters.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDMQuadrants.Designer.vb">
+      <DependentUpon>frmDMQuadrants.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDMQuadrants.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDMXTabs.Designer.vb">
+      <DependentUpon>frmDMXTabs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDMXTabs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDMTimeSeries.Designer.vb">
+      <DependentUpon>frmDMTimeSeries.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDMTimeSeries.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditEventRow.Designer.vb">
+      <DependentUpon>frmEditEventRow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditEventRow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTags.Designer.vb">
+      <DependentUpon>frmTags.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTags.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modDataMining.vb" />
+    <Compile Include="modFTPClient.vb" />
+    <Compile Include="modInterpolate.vb" />
+    <Compile Include="modVideoMixer.vb" />
+    <Compile Include="frmConfirmVPL.Designer.vb">
+      <DependentUpon>frmConfirmVPL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfirmVPL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGraph.Designer.vb">
+      <DependentUpon>frmGraph.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGraph.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdvancedSearch.Designer.vb">
+      <DependentUpon>frmAdvancedSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdvancedSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnalysis.Designer.vb">
+      <DependentUpon>frmAnalysis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnalysis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChart.Designer.vb">
+      <DependentUpon>frmChart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmChart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfirmStandAloneEvent.Designer.vb">
+      <DependentUpon>frmConfirmStandAloneEvent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfirmStandAloneEvent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCreateCollection.Designer.vb">
+      <DependentUpon>frmCreateCollection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCreateCollection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditTags.Designer.vb">
+      <DependentUpon>frmEditTags.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditTags.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEventList.Designer.vb">
+      <DependentUpon>frmEventList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEventList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOpenGames.Designer.vb">
+      <DependentUpon>frmOpenGames.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOpenGames.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOptions.Designer.vb">
+      <DependentUpon>frmOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clsDV.cls">
+    </Compile>
+    <Compile Include="frmPitch.Designer.vb">
+      <DependentUpon>frmPitch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPitch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelectVideoDevice.Designer.vb">
+      <DependentUpon>frmSelectVideoDevice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelectVideoDevice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetGame.Designer.vb">
+      <DependentUpon>frmSetGame.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetGame.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetGraphs.Designer.vb">
+      <DependentUpon>frmSetGraphs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetGraphs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowStats.Designer.vb">
+      <DependentUpon>frmShowStats.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowStats.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSonyCalibration.Designer.vb">
+      <DependentUpon>frmSonyCalibration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSonyCalibration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSystemInfo.Designer.vb">
+      <DependentUpon>frmSystemInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSystemInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVideo.Designer.vb">
+      <DependentUpon>frmVideo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVideo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVideoPlayList.Designer.vb">
+      <DependentUpon>frmVideoPlayList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVideoPlayList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modGraphFunctions.vb" />
+    <Compile Include="modLoadSaveGame.vb" />
+    <Compile Include="modMediaFunctions.vb" />
+    <Compile Include="modPPMain.vb" />
+    <Compile Include="modRegionFunctions.vb" />
+    <Compile Include="modSearchEngine.vb" />
+    <Compile Include="modSonyCamera.vb" />
+    <Compile Include="clsVideoCaptureClass.cls" />
+    <Compile Include="modTrig.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="frmSplash.Designer.vb">
+      <DependentUpon>frmSplash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVideoCapture.Designer.vb">
+      <DependentUpon>frmVideoCapture.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVideoCapture.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clsPlaySet.cls" />
+    <Compile Include="frmWireless.Designer.vb">
+      <DependentUpon>frmWireless.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWireless.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modScreenCapture.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmConfirmVPL.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfirmVPL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDMClusters.resx">
+      <DependentUpon>frmDMClusters.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDMQuadrants.resx">
+      <DependentUpon>frmDMQuadrants.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDMXTabs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDMXTabs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDMTimeSeries.resx">
+      <DependentUpon>frmDMTimeSeries.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditEventRow.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEditEventRow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGraph.resx">
+      <DependentUpon>frmGraph.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdvancedSearch.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAdvancedSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnalysis.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAnalysis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChart.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmChart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfirmStandAloneEvent.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfirmStandAloneEvent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCreateCollection.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCreateCollection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditTags.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEditTags.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEventList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEventList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOpenGames.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOpenGames.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOptions.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPitch.resx">
+      <DependentUpon>frmPitch.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectVideoDevice.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSelectVideoDevice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetGame.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSetGame.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetGraphs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSetGraphs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShowStats.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmShowStats.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSonyCalibration.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSonyCalibration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSystemInfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSystemInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTags.resx">
+      <DependentUpon>frmTags.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVideo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmVideo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVideoPlayList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmVideoPlayList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplash.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSplash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVideoCapture.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmVideoCapture.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWireless.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmWireless.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BaseApplicationManifest Include="My Project\app.manifest" />
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="DexterLib">
+      <Guid>{78530B68-61F9-11D2-8CAD-00A024580902}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="QuartzTypeLib">
+      <Guid>{56A868B0-0AD4-11CE-B03A-0020AF0BA770}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Folder Games Soccer.ico" />
+    <Content Include="newGP.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\AddPoint.png" />
+    <Content Include="Resources\AIS Logo.gif" />
+    <None Include="Resources\AIS Logo1.gif" />
+    <None Include="Resources\APPLICATIONS.png" />
+    <None Include="Resources\Application iMovie008.png" />
+    <None Include="Resources\Application iMovie006.png" />
+    <None Include="Resources\Application iMovie007.png" />
+    <Content Include="Resources\ASC Logo.gif" />
+    <None Include="Resources\ASC Logo1.gif" />
+    <None Include="Resources\Folder Applications %285%29.png" />
+    <None Include="Resources\FireWireLogo.png" />
+    <None Include="Resources\FireWireLogo 48x48.png" />
+    <None Include="Resources\FauxS-XP %28Emerald%29 V1.5 Icon 03.png" />
+    <None Include="Resources\FauxS-XP %28Cobalt%29 Recent File.ico" />
+    <None Include="Resources\Export 24.png" />
+    <None Include="Resources\ChronoSync.png" />
+    <None Include="Resources\ExcelStat.png" />
+    <None Include="Resources\Folder Excel.png" />
+    <None Include="Resources\Folder Draw.png" />
+    <None Include="Resources\Chrono_Red.png" />
+    <None Include="Resources\Folder 128.png" />
+    <None Include="Resources\Exit_010.png" />
+    <None Include="Resources\Feed.png" />
+    <None Include="Resources\Filetype URL.png" />
+    <None Include="Resources\Folder -Sites.png" />
+    <None Include="Resources\Blank Point.png" />
+    <Content Include="Resources\Folder Games Soccer.ico" />
+    <None Include="Resources\iFeed2.png" />
+    <None Include="Resources\iFeed.png" />
+    <None Include="Resources\Sites Folder.png" />
+    <None Include="Resources\icon.png" />
+    <None Include="Resources\Refresh.png" />
+    <None Include="Resources\Print_Preview32.png" />
+    <None Include="Resources\Print32.png" />
+    <None Include="Resources\Print_Preview.png" />
+    <None Include="Resources\PrinterFolder.png" />
+    <None Include="Resources\PDF32.png" />
+    <None Include="Resources\Print 144.png" />
+    <None Include="Resources\Player Possession Maps Australia Hudson.jpg" />
+    <None Include="Resources\XP_Rewind.png" />
+    <None Include="Resources\XP_Pause.png" />
+    <None Include="Resources\XP_Forward.png" />
+    <None Include="Resources\XP_Stop.png" />
+    <None Include="Resources\XP_Stop.bmp" />
+    <None Include="Resources\XP_Play.png" />
+    <None Include="Resources\play.ico" />
+    <None Include="Resources\ToolbarTags64.png" />
+    <None Include="Resources\Undo Red_Layer 1.png" />
+    <None Include="Resources\Undo Red_Layer 1.ico" />
+    <None Include="Resources\Photo 140.png" />
+    <None Include="Resources\Symbol Player Next 32.png" />
+    <None Include="Resources\Symbol Player FastF 64.png" />
+    <None Include="Resources\Symbol Player FastF 32.png" />
+    <None Include="Resources\Symbol Player Next 64.png" />
+    <None Include="Resources\Symbol Player Slow Back 32.png" />
+    <None Include="Resources\Symbol Player Slow 64.png" />
+    <None Include="Resources\Symbol Player Slow 32.png" />
+    <None Include="Resources\Symbol Player Previous 64.png" />
+    <None Include="Resources\Symbol Player Previous 32.png" />
+    <None Include="Resources\Symbol Player Play 64.png" />
+    <None Include="Resources\Symbol Player Play 32.png" />
+    <None Include="Resources\Symbol Player Pause 64.png" />
+    <None Include="Resources\Symbol Player Pause 32.png" />
+    <None Include="Resources\Symbol Player FastRew 64.png" />
+    <None Include="Resources\Symbol Player FastRew 32.png" />
+    <None Include="Resources\Symbol Web.png" />
+    <None Include="Resources\Symbol Player Slow Back 64.png" />
+    <None Include="Resources\Stop_Layer 1.png" />
+    <None Include="Resources\Pause_Layer 1.png" />
+    <None Include="Resources\Play_Layer 1.png" />
+    <None Include="Resources\Pattern Plotter.ico" />
+    <None Include="Resources\LaST %28Cobalt%29 XP V1-1 Icon 116.png" />
+    <None Include="Resources\LaST %28Cobalt%29 XP V1-1 Icon 116 - 48x48.png" />
+    <None Include="Resources\LaST %28Cobalt%29 XP V1-1 Icon 03.png" />
+    <None Include="Resources\right_48x48.png" />
+    <None Include="Resources\left_48x48.png" />
+    <None Include="Resources\SlideShow1.png" />
+    <None Include="Resources\SlideShow.png" />
+    <None Include="Resources\SonyRemote.png" />
+    <None Include="Resources\Folder Generic.png" />
+    <None Include="Resources\Toolbar New folder.png" />
+    <None Include="Resources\Help004.png" />
+    <None Include="Resources\My Videos3004.png" />
+    <None Include="Resources\Windows Media Player004.png" />
+    <None Include="Resources\VIDEO004.png" />
+    <None Include="Resources\Silver System Icon 33003.png" />
+    <None Include="Resources\Orange System Icon 51003.png" />
+    <None Include="Resources\Netclear004.png" />
+    <None Include="Resources\Netclear001.png" />
+    <None Include="Resources\Media Player2004.png" />
+    <None Include="Resources\FloppyClear004.png" />
+    <None Include="Resources\Application iMovie004.png" />
+    <None Include="Resources\Folder Movies.png" />
+    <None Include="Resources\Folder Utilities.png" />
+    <None Include="Resources\Toolbar Movies1.png" />
+    <None Include="Resources\Toolbar Get info.png" />
+    <None Include="Resources\Toolbar Delete.png" />
+    <None Include="Resources\PRINTERS.png" />
+    <None Include="Resources\Toolbar Movies.png" />
+    <None Include="Resources\Toolbar Customize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EventButton Control\EventButton\EventButton.vbproj">
+      <Project>{DB94AE84-002B-40C7-931B-AC832E9CEFC2}</Project>
+      <Name>EventButton</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

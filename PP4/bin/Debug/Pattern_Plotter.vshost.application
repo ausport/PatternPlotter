@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <assemblyIdentity name="Pattern_Plotter.application" version="4.1.2.4" publicKeyToken="0000000000000000" language="en" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <description asmv2:publisher="AIS Performance Analysis" asmv2:product="Pattern Plotter" asmv2:supportUrl="http://www.ausport.gov.au/" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <deployment install="true" mapFileExtensions="true" />
+  <dependency>
+    <dependentAssembly dependencyType="install" codebase="Pattern_Plotter.exe.manifest" size="14316">
+      <assemblyIdentity name="Pattern_Plotter.exe" version="4.1.2.4" publicKeyToken="0000000000000000" language="en" processorArchitecture="msil" type="win32" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>AViTzHIzRCrNJ+VCIqW73nsketA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+</asmv1:assembly>

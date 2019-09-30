@@ -1,0 +1,441 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Pattern_Plotter
+</name>
+</assembly>
+<members>
+<member name="T:PatternPlotter4.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Add_Folder">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Add_Folder_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.AddPoint">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.AIS_Small">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.APPLICATIONS">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.ASC_Small">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Big_FF">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Big_NextFrame">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Big_Pause">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Big_Play">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Big_PrevFrame">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Big_Rewind">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Big_ToEnd">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Big_ToStart">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Blank_Point">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Camera">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Cancel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Capture_Large">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Capture_Largest">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Capture_Medium">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Capture_Small">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Chrono_Red">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.ChronoSync">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.ExcelStat">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Exit_010">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Export_24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Feed">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Filetype_URL">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.FireWire_48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.FireWireLogo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.FloppyClear004">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Folder__Sites">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Folder_128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Folder_Draw">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Folder_Excel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Folder_Generic">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Folder_Movies">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Folder_Pens">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Folder_Utilities">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Help004">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.iFeed">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.iFeed2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Info">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.left_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Media1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Media2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Options">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Pause_Export">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.PDF32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Play_Export">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Play_Media">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Print_144">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Print_Preview">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Print_Preview32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Print32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.PrinterFolder">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.PRINTERS">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Refresh">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.right_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Save">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Sites_Folder">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.SlideShow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.SlideShow1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Small_FF">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Small_NextFrame">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Small_Pause">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Small_Play">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Small_PrevFrame">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Small_Rewind">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Small_ToEnd">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Small_ToStart">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.SonyRemote">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Stop_Export">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Timing_Small">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Twin_Screens">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Undo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.Video_Folder">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.VIDEO004">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.XP_Forward">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.XP_Pause">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.XP_Play">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.XP_Rewind">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PatternPlotter4.My.Resources.Resources.XP_Stop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,10 @@
+C:\Users\Stuart Morgan\Desktop\Pattern Plotter 4.5.12\EventButton Control\EventButton\bin\x86\Debug\EventButton.dll.config
+C:\Users\Stuart Morgan\Desktop\Pattern Plotter 4.5.12\EventButton Control\EventButton\bin\x86\Debug\EventButton.dll
+C:\Users\Stuart Morgan\Desktop\Pattern Plotter 4.5.12\EventButton Control\EventButton\bin\x86\Debug\EventButton.pdb
+C:\Users\Stuart Morgan\Desktop\Pattern Plotter 4.5.12\EventButton Control\EventButton\bin\x86\Debug\EventButton.xml
+C:\Users\Stuart Morgan\Desktop\Pattern Plotter 4.5.12\EventButton Control\EventButton\obj\x86\Debug\EventButton.Resources.resources
+C:\Users\Stuart Morgan\Desktop\Pattern Plotter 4.5.12\EventButton Control\EventButton\obj\x86\Debug\EventButton.Buttons.resources
+C:\Users\Stuart Morgan\Desktop\Pattern Plotter 4.5.12\EventButton Control\EventButton\obj\x86\Debug\EventButton.vbproj.GenerateResource.Cache
+C:\Users\Stuart Morgan\Desktop\Pattern Plotter 4.5.12\EventButton Control\EventButton\obj\x86\Debug\EventButton.dll
+C:\Users\Stuart Morgan\Desktop\Pattern Plotter 4.5.12\EventButton Control\EventButton\obj\x86\Debug\EventButton.xml
+C:\Users\Stuart Morgan\Desktop\Pattern Plotter 4.5.12\EventButton Control\EventButton\obj\x86\Debug\EventButton.pdb
